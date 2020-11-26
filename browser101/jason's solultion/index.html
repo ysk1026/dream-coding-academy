@@ -36,13 +36,17 @@
         input {
             border: none;
         }
+
+        p {
+            display: flex;
+            justify-content: space-between;
+            padding: 3px 10px 0 15px;
+        }
         .container {
             width: 500px;
         }
 
         .list {
-            height: 300px;
-            padding: 15px 0 0 20px;
             border: 1px solid transparent;
             background-color: gray;
         }
@@ -72,10 +76,10 @@
             Shopping List
         </header>
         <div class="list">
-            <p>우유</p>
+            <!-- <p>우유</p> -->
         </div>
         <div>
-            <input type="text" class="input">
+            <input type="text" class="input" onkeypress="enter()">
         </div>
         <div class="adding">
             <button class="plus">
