@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <script src="https://kit.fontawesome.com/5c130528f2.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            border-radius: 50%;
+            background-color:white;
+            border: 1px solid transparent;
+        }
+
+        div {
+            background-color: white;
+        }
+
+        header {
+            margin-top: 1em;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid transparent;
+            border-radius: 10px 10px 0 0;
+            background-color: violet;
+            text-align: center;
+            color:white;
+        }
+        
+        input {
+            border: none;
+        }
+        .container {
+            width: 500px;
+        }
+
+        .list {
+            height: 300px;
+            padding: 15px 0 0 20px;
+            border: 1px solid transparent;
+            background-color: gray;
+        }
+
+        .input {
+            background-color:white;
+            width: 90%;
+            height: 33px;
+            line-height: 33px;
+        }
+
+        .adding {
+            border: 1px solid transparent;
+            border-radius: 0 0 10px 10px;
+            background-color: violet;
+            height: 50px;
+            line-height:50px;
+            text-align: center;
+        }
+
+    </style>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            Shopping List
+        </header>
+        <div class="list">
+            <p>우유</p>
+        </div>
+        <div>
+            <input type="text" class="input">
+        </div>
+        <div class="adding">
+            <button class="plus">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
